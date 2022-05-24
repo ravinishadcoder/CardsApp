@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.maindiv{
+  border: 1px solid;
+  width: 40em;
+  box-sizing: border-box;
+  margin: auto;
+  
+  
+}
+
+
+img{
+  height: 70px;
+  
+}
+
+.imgndate{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+button{
+  height: 45px;
+  background-color: black;
+  color: white;
+}
+
+.desnarrow{
+display: flex;
+justify-content: space-between;
+}
+
+@media (min-width:20px) and (max-width:415px){
+  .maindiv{
+    width:80%;
+  }
+}
