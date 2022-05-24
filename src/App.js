@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-import CardAm from './components/CardAm';
+import CardApp from './components/CardApp';
 
 function App() {
   return (
-    <>
-<CardAm/>
+    <div className='mainApp'>
+<CardApp/>
 
-    </>
+    </div >
   );
 }
 

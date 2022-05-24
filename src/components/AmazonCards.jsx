@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const AmazonCards = (props) => {
  
   return (
-    <div className='maindiv'style={{marginTop:props.margin_top,backgroundColor:props.color,borderRadius:'5px'}}>
-        <div className='imgndate'>
+    <div className='maincont'style={{marginTop:props.margin_top,backgroundColor:props.color,borderRadius:'5px'}}>
+        <div className='imgdate'>
           <h3>{props.Date}</h3>
           <img src={props.image} alt="" />
         </div>
